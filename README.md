@@ -31,6 +31,13 @@ MainActivity.java
    activity_add_recipe.xml
    activity_recipe_detail.xml
 
-  
+# How to Run
 
+To open and test this project:
 
+1. Download or clone the repository
+2. Open in Android Studio
+3. Allow Gradle sync to complete
+4. Run the app using the emulator or a physical device
+
+> This project is currently layout-only, with no business logic or navigation.
