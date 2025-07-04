@@ -1,43 +1,51 @@
-# Culinary Companion – Mobile Computing Coursework 1
+# Culinary Companion - Revised CW1
 
-This repository contains the initial Android project structure for the **Culinary Companion** mobile application, developed for the Mobile Computing module at Birkbeck.
+**Module:** Mobile Computing  
+**Student:** Ivaylo Donchev (idonch01)  
 
-# Coursework 1 Requirements
 
-This submission includes:
-- `MainActivity` – Recipe list layout (Dashboard)
-- `AddRecipeActivity` – Layout to add a new recipe
-- `RecipeDetailActivity` – Layout to view recipe details
+## This is my **revised and fully working version** of **Coursework 1 - Culinary Companion ** for the *Mobile Computing* module.
 
-# What's Implemented
+It includes:
+- **Empty Views Activities** (no Compose)
+- `DashboardActivity` as the launcher screen
+- `RecipeDetailsActivity` for adding a new recipe
+- `activity_dashboard.xml` layout matching the wireframe
+- `recipe_item.xml` for RecyclerView item template
+- `activity_recipe_details.xml` for the Add/Edit Recipe form
+- Correct `AndroidManifest.xml` with the right launcher activity
 
-- Project created using **Java** and **XML layouts** in **Android Studio**
-- No logic or navigation included, as specified by Coursework 1
-- Each screen contains mock UI elements and placeholders only
+The project has been **built and tested in Android Studio ** 
 
-# Project Structure
-CulinaryCompanion/
- build.gradle.kts
- settings.gradle.kts
-   app/
-    src/
-    main/
-java/co/uk/bbk/culinarycompanion/
-MainActivity.java
-  AddRecipeActivity.java
-  RecipeDetailActivity.java
-   res/layout/
-   activity_main.xml
-   activity_add_recipe.xml
-   activity_recipe_detail.xml
+## How to use
 
-# How to Run
+1. **Download** the attached `CulinaryCompanion.zip`.
+2. **Unzip** the folder.
+3. Open **Android Studio** → `Open Project` → select the unzipped folder.
+4. Click **Sync Gradle** if needed.
+5. Click **Run ** — the app launches to the **Dashboard** screen.
 
-To open and test this project:
+---
 
-1. Download or clone the repository
-2. Open in Android Studio
-3. Allow Gradle sync to complete
-4. Run the app using the emulator or a physical device
+## Wireframe consistency
 
-> This project is currently layout-only, with no business logic or navigation.
+This version matches the original wireframes for:
+- **Dashboard Screen**
+- **Add Recipe Screen**
+- RecyclerView placeholder for displaying recipes
+
+This version addresses **previous feedback**:
+- Uses correct Views-only Activities
+- Builds successfully
+- Proper layout structure
+
+
+## Notes
+
+This version is for **Coursework 1 only**, covering project setup, activities, layouts, and wireframe compliance.  
+Functionality such as RecyclerView population, database, and full CRUD operations will be implemented in **Coursework 2**.
+
+---
+
+**Thank you for reviewing!**
+
