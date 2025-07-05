@@ -10,7 +10,7 @@ This repository contains the final, fully working version of the **Culinary Comp
 
 This repository includes:
 * The final version for **Coursework 2**, developed step by step with proper version control commits.
-* The original `CulinaryCompanion.zip` file from **Coursework 1** is still kept in the repository for reference and comparison. The CW2 project fully replaces that initial ZIP by providing the actual source files with full functionality and structure.
+* The revised `CulinaryCompanion.zip` file from **Coursework 1** is still kept in the repository for reference and comparison. The CW2 project fully replaces that initial ZIP by providing the actual source files with full functionality and structure.
 
 
 
