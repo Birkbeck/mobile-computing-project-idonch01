@@ -58,12 +58,10 @@ This submission covers all specified CW2 requirements:
   * Builds and runs successfully
   * Proper Room, ViewModel, RecyclerView integration
 * Commit history shows clear step-by-step progress:
-  * Project setup
   * Room database layer
   * ViewModel
   * UI layouts
   * Activities and adapter
-  * Final tweaks and build config
 
 
 
